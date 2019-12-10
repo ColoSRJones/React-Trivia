@@ -27,5 +27,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColoSRJones/React-Trivia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColoSRJones/React-Trivia/issues"
+  },
+  "homepage": "https://github.com/ColoSRJones/React-Trivia#readme",
+  "description": ""
 }
