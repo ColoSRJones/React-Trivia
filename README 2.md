@@ -1,2 +1,0 @@
-# React-Trivia
-React-Trivia
