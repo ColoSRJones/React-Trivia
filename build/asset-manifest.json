@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ColoSRJones/React-Trivia/static/css/main.1fcd6f0a.chunk.css",
-    "main.js": "/ColoSRJones/React-Trivia/static/js/main.5875769c.chunk.js",
-    "main.js.map": "/ColoSRJones/React-Trivia/static/js/main.5875769c.chunk.js.map",
-    "runtime-main.js": "/ColoSRJones/React-Trivia/static/js/runtime-main.8d92b7bf.js",
-    "runtime-main.js.map": "/ColoSRJones/React-Trivia/static/js/runtime-main.8d92b7bf.js.map",
-    "static/js/2.e61aa98d.chunk.js": "/ColoSRJones/React-Trivia/static/js/2.e61aa98d.chunk.js",
-    "static/js/2.e61aa98d.chunk.js.map": "/ColoSRJones/React-Trivia/static/js/2.e61aa98d.chunk.js.map",
-    "index.html": "/ColoSRJones/React-Trivia/index.html",
-    "precache-manifest.4c5c28c6f442867a70d2e71d2c93aabd.js": "/ColoSRJones/React-Trivia/precache-manifest.4c5c28c6f442867a70d2e71d2c93aabd.js",
-    "service-worker.js": "/ColoSRJones/React-Trivia/service-worker.js",
-    "static/css/main.1fcd6f0a.chunk.css.map": "/ColoSRJones/React-Trivia/static/css/main.1fcd6f0a.chunk.css.map",
-    "static/js/2.e61aa98d.chunk.js.LICENSE": "/ColoSRJones/React-Trivia/static/js/2.e61aa98d.chunk.js.LICENSE"
+    "main.css": "/static/css/main.1fcd6f0a.chunk.css",
+    "main.js": "/static/js/main.4593c8ce.chunk.js",
+    "main.js.map": "/static/js/main.4593c8ce.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0bdec8f0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0bdec8f0.js.map",
+    "static/js/2.e61aa98d.chunk.js": "/static/js/2.e61aa98d.chunk.js",
+    "static/js/2.e61aa98d.chunk.js.map": "/static/js/2.e61aa98d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8c390f7a6f526d9b155bc079f9b69182.js": "/precache-manifest.8c390f7a6f526d9b155bc079f9b69182.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1fcd6f0a.chunk.css.map": "/static/css/main.1fcd6f0a.chunk.css.map",
+    "static/js/2.e61aa98d.chunk.js.LICENSE": "/static/js/2.e61aa98d.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d92b7bf.js",
+    "static/js/runtime-main.0bdec8f0.js",
     "static/js/2.e61aa98d.chunk.js",
     "static/css/main.1fcd6f0a.chunk.css",
-    "static/js/main.5875769c.chunk.js"
+    "static/js/main.4593c8ce.chunk.js"
   ]
 }
