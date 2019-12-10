@@ -1,0 +1,15 @@
+body {
+  background: url("https://images3.alphacoders.com/982/982056.jpg");
+  background-size: cover;
+  margin: 15px auto;
+  font-family: 'Lilita One', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
