@@ -27,7 +27,6 @@ h2 {
 
 .answer {
     border: 7px solid darkblue;
-    opacity: 75%;
     border-radius: 20px;
     box-shadow: 0 17px 7px -7px black;
     padding: 5px 10px 5px 45px;
@@ -65,7 +64,6 @@ h2 {
   height: 100%;
   width: 900px;
   text-align: center;
-  opacity: 77%;
   border-radius: 77px;
 }
 
@@ -86,7 +84,7 @@ h2 {
 }
 @keyframes blinker {
   50% {
-    opacity: 0;
+
   }
 }
 
@@ -119,5 +117,4 @@ h2 {
     border-radius: 25px;
     font-weight: bold;
     box-shadow: 0 17px 7px -7px black;
-    opacity: 100%;
 }
