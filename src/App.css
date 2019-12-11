@@ -1,4 +1,4 @@
-.logo{
+.logotext{
     font-size: 60px;
     color: orange;
     text-align: center;
@@ -7,7 +7,24 @@
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: white;
 }
-
+.logo img{
+    position: absolute; 
+    margin: auto; 
+    width: 100%;
+    text-align:center;
+    top: 20px;
+    width: 400px;
+    padding: 10px auto;
+}
+.logo2 img{
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        width: 250px;
+        margin-right: 50px;
+      
+}
 .container {
     min-height: 70vh;
     display: flex;
@@ -22,11 +39,13 @@
 
 h1,
 h2 {
-    margin: 10px;
+    margin-left: 45px;
+    text-align: center;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: darkblue;
-    width: 777px;
+    width: 800px;
     font-size: 40px;
+    padding: 10px auto;
 }
 
 .answer {
@@ -36,7 +55,7 @@ h2 {
     padding: 5px 10px 5px 45px;
     width: 610px;
     text-align: left;
-    margin-top: 80px;
+    margin-top: 20px;
     position: relative;
     font-size: 22px;
     cursor: pointer;
@@ -45,14 +64,25 @@ h2 {
 
 .answer.selected {
     color: #fff;
-    background-color: orange;
-    border: 10px solid #fff;
+    background-color: orangered;
+    border: 7px solid #fff;
 }
 
 .answer:hover {
     color: #fff;
     background-color: darkblue;
-    border: 10px solid #fff;
+    border: 7px solid #fff;
+    animation: .3s morph ease infinite;
+}
+
+@keyframes morph {
+	0% {
+		border-radius: 100px 50px 100px 50px;
+	} 50% {
+		border-radius: 50px 100px 50px 100px;
+	} 100% {
+		border-radius: 100px 50px 100px 50px;
+	}
 }
 
 .answer:focus {
@@ -121,4 +151,17 @@ h2 {
     border-radius: 25px;
     font-weight: bold;
     box-shadow: 0 17px 7px -7px black;
+}
+.footer{
+flex-shrink: 0;
+text-align: center;
+background-color: orange;
+color: darkblue;
+font-size: 40px;
+border-top-width: 7px;
+border-top-style: double;
+border-top-color: #fff ;
+border-bottom-width: 7px;
+border-bottom-style: double;
+border-bottom-color:  #fff;
 }

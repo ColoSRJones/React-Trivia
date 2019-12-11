@@ -3,6 +3,7 @@ import Progress from './components/Progress';
 import Question from './components/Question';
 import Answers from './components/Answers';
 import QuizContext from './context/QuizContext';
+import Footer from './components/Footer';
 
 import {
     SET_ANSWERS,
@@ -324,7 +325,9 @@ function App() {
     } else {
         return (
             <QuizContext.Provider value={{state, dispatch}}>
-              <div className="logo">Broncos Country ASL Trivia</div>
+              <div className="logotext">Broncos Country ASL Trivia</div>
+              <div className="logo"><img src={require('./assets/broncos.png')} /></div>
+              <div className="logo2"><img src={require('./assets/colorrush.png')} /></div>
                 <div className="container">
                     <Progress
                         total={questions.length}
@@ -337,7 +340,9 @@ function App() {
                         Confirm and Continue
                     </button>
                 </div>
+                <Footer></Footer>
             </QuizContext.Provider>
+            
         );
     }
 }
