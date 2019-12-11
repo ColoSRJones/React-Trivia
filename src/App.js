@@ -32,213 +32,158 @@ function App() {
         },
         {
           id: 2,
-          question: 'What team originally drafted John Elway?',
+          question: 'What year were the Denver Broncos founded?',
           answer_a:
-              'Baltimore Colts',
-          answer_b: 'Chicago Bears',
+              '1940',
+          answer_b: '1950',
           answer_c:
-              'Denver Broncos',
-          answer_d: 'Boston Patriots',
+              '1960',
+          answer_d: '1970',
+          correct_answer: 'c',
+        },
+        {
+          id: 3,
+          question: 'What was the Denver Broncos record in their first season?',
+          answer_a:
+              '3-10-1',
+          answer_b: '3-11',
+          answer_c:
+              '4-9-1',
+          answer_d: '7-7',
+          correct_answer: 'c',
+        },
+        {
+          id: 4,
+          question: 'Who was the first Denver Bronco to rush for more than 20 touchdowns in a single season?',
+          answer_a:
+              'Clinton Portis',
+          answer_b: 'Terrell Davis',
+          answer_c:
+              'Mike Anderson',
+          answer_d: 'Floyd Little',
+          correct_answer: 'b',
+        },
+        {
+          id: 5,
+          question: 'Which of the following distinctions can the Denver Broncos boast of?',
+          answer_a:
+              'First AFL Team to defeat an NFL Team',
+          answer_b: 'First Africa-American Place-kicker',
+          answer_c:
+              'First Team to wear Vertical-Striped Socks',
+          answer_d: 'All of them',
+          correct_answer: 'd',
+        },
+        {
+          id: 6,
+          question: 'In what round of the 1995 NFL draft did the Denver Broncos take RB Terrell Davis?',
+          answer_a:
+              '1st Round',
+          answer_b: '2nd Round',
+          answer_c:
+              '4th Round',
+          answer_d: '6th Round',
+          correct_answer: 'd',
+        },
+        {
+          id: 7,
+          question: 'Who was the first Denver Bronco to compile more than 15 sacks in a season?',
+          answer_a:
+              'Trevor Pryce',
+          answer_b: 'Karl Mecklenburg',
+          answer_c:
+              'Simon Fletcher',
+          answer_d: 'Lyle Alzado',
+          correct_answer: 'c',
+        },
+        {
+          id: 8,
+          question: 'Which head coach led the Denver Broncos to their first playoff appearance?',
+          answer_a:
+              'Lou Saban',
+          answer_b: 'Dan Reeves',
+          answer_c:
+              'Red Miller',
+          answer_d: 'Mike Shanahan',
+          correct_answer: 'c',
+        },
+        {
+          id: 9,
+          question: 'Who was the first Denver Broncos quarterback to finish a season (minimum of 200 passes) with a passer rating higher than 100?',
+          answer_a:
+              'John Elway',
+          answer_b: 'Jake Plummer',
+          answer_c:
+              'Brian Griese',
+          answer_d: 'Gus Frerotte',
+          correct_answer: 'c',
+        },
+        {
+          id: 10,
+          question: 'Who did the Denver Broncos trade to the Washington Redskins in 2004 for Pro Bowl cornerback Champ Bailey?',
+          answer_a:
+              'Laveranues Coles',
+          answer_b: 'Mike Anderson',
+          answer_c:
+              'Clinton Portis',
+          answer_d: 'Rod Smith',
+          correct_answer: 'c',
+        },
+        {
+          id: 11,
+          question: 'Who led the Denver Broncos in sacks in 1999?',
+          answer_a:
+              'Trevor Pryce',
+          answer_b: 'Neil Smith',
+          answer_c:
+              'Al Wilson',
+          answer_d: 'Alfred Williams',
           correct_answer: 'a',
         },
-        // {
-        //   id: 3,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 4,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 5,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 6,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 7,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 8,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 9,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 10,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 11,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 12,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 13,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 14,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 15,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 16,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 17,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 18,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 19,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
-        // {
-        //   id: 20,
-        //   question: 'What team originally drafted John Elway?',
-        //   answer_a:
-        //       'Baltimore Colts',
-        //   answer_b: 'Chicago Bears',
-        //   answer_c:
-        //       'Denver Broncos',
-        //   answer_d: 'Boston Patriots',
-        //   correct_answer: 'a',
-        // },
+        {
+          id: 12,
+          question: 'Who is the Broncos’ all-time passing leader? ',
+          answer_a:
+              'Peyton Manning',
+          answer_b: 'Jake Plummer',
+          answer_c:
+              'Frank Tripucka',
+          answer_d: 'John Elway',
+          correct_answer: 'd',
+        },
+        {
+          id: 13,
+          question: 'In what year did the Broncos win their first Super Bowl?',
+          answer_a:
+              '1998',
+          answer_b: '1995',
+          answer_c:
+              '1987',
+          answer_d: '1988',
+          correct_answer: 'a',
+        },
+        {
+          id: 14,
+          question: 'In what year did Pat Bowlen buy the Broncos?',
+          answer_a:
+              '1984',
+          answer_b: '1983',
+          answer_c:
+              '1989',
+          answer_d: '1978',
+          correct_answer: 'a',
+        },
+        {
+          id: 15,
+          question: 'Who is a Super Bowl 50 Most Valuable Player?',
+          answer_a:
+              'Peyton Manning',
+          answer_b: 'Von Miller',
+          answer_c:
+              'DeMarcus Ware',
+          answer_d: 'Chris Harris Jr.',
+          correct_answer: 'b',
+        },
     ];
 
     const initialState = {
